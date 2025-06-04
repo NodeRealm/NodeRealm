@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>MommyTime</title>
+  <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+  <h1>MommyTime</h1>
+
+  <section>
+    <h2>Add Birthday</h2>
+    <form id="birthdayForm">
+      <input type="text" id="bName" placeholder="Child's name" required>
+      <input type="date" id="bDate" required>
+      <input type="text" id="bNotes" placeholder="Notes">
+      <button>Add</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Add Due Date</h2>
+    <form id="dueDateForm">
+      <input type="text" id="dBaby" placeholder="Baby name" required>
+      <input type="date" id="dDate" required>
+      <input type="text" id="dNotes" placeholder="Notes">
+      <button>Add</button>
+    </form>
+  </section>
+
+  <section>
+    <h2>Add Appointment</h2>
+    <form id="appointForm">
+      <input type="text" id="aDesc" placeholder="Description" required>
+      <input type="datetime-local" id="aDate" required>
+      <input type="text" id="aNotes" placeholder="Notes">
+      <button>Add</button>
+    </form>
+  </section>
+
+  <h2>Events</h2>
+  <pre id="events"></pre>
+
+  <script src="/public/app.js"></script>
+</body>
+</html>
