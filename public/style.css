@@ -1,4 +1,22 @@
-body { font-family: Arial, sans-serif; margin: 2em; }
-form { margin-bottom: 1em; }
-input { margin-right: .5em; }
-pre { background: #f0f0f0; padding: 1em; }
+body {
+  font-family: Arial, sans-serif;
+  margin: 2em;
+  background-color: #fff0f5; /* light pink */
+}
+
+h1, h2 {
+  color: #d16ba5; /* mommy-inspired lavender-pink */
+}
+
+section {
+  background: #ffe6f2; /* soft pink */
+  padding: 1em;
+  border-radius: 6px;
+  margin-bottom: 1em;
+}
+
+pre {
+  background: #fce4ec;
+  padding: 1em;
+  border-radius: 6px;
+}
